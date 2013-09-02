@@ -32,7 +32,7 @@ If you also want to reduce your email volume the messages that I targeted were:
 - Businesses that had my email address from forms (cinemas, restaurants, travel agents etc...)
 - Any that are not part of my core business i.e. Newsletters from companies (hubspot, salesforce, coursera, amazon, buffer) or regular emails (popbitch, change.org)
 - Social accounts. Either unsubscribed from notifications or switched to weekly summaries
-- Any that I regularly deleted or archived I unsubscribe from
+- Any that I regularly deleted or archived I unsubscribed from
 
 To check your own email volume on gmail do a search for:
 
@@ -45,4 +45,4 @@ think it's a useful exercise if only to get a snapshot on which direction your
 own inbox is heading in.
 
 ### Outcome: 1 hour saved per month
-### Downside: Less diverse email box
+### Downside: Less diverse inbox
