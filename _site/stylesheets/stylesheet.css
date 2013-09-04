@@ -65,7 +65,6 @@ a:hover {
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
 }
 
 header h1 {
@@ -295,6 +294,11 @@ blockquote {
 }
 
 ul li {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+ul li.post {
   list-style: none;
   padding-left: 20px;
 }
@@ -360,6 +364,20 @@ ul.tag-list  li.tag {
   margin: 0px 3px;
 }
 
+#container .inner header .icon{
+  display: inline-block;
+}
+
+#container .inner header .title{
+  display: inline-block;
+}
+
+#container .inner img#main-icon{
+  max-width: 150px;
+  border-radius: 150px;
+  border: 5px solid white;
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -373,7 +391,6 @@ ul.tag-list  li.tag {
 @media only screen and (max-width: 767px) {
   header {
     padding-top: 10px;
-    padding-bottom: 10px;
   }
   #downloads {
     margin-bottom: 25px;
@@ -394,6 +411,10 @@ ul.tag-list  li.tag {
 @media only screen and (max-width: 479px) {
   ul.tag-list {
     margin-left: 0px;
+  }
+
+  #container .inner img#main-icon{
+    display: none;
   }
 }
 
