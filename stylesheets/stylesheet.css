@@ -364,6 +364,10 @@ ul.tag-list  li.tag {
   margin: 0px 3px;
 }
 
+code {
+  padding: 10px;
+}
+
 #container .inner header .icon{
   display: inline-block;
 }
