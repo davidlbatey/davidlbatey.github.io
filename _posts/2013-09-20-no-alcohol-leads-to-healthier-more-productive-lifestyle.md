@@ -49,7 +49,7 @@ So my weekly drinks tab came to around £69.50. So the total gain over the last
 ```
 \- About a months rent or a London to San Francisco return flight
 
-### Productvitiy gains
+### Productivity gains
 
 Now more importantly let's look at the time saved. No code shipped on the evenings
 where drinking occurs (loss of 4 hours each night) and 1 day hangover on the Saturday
