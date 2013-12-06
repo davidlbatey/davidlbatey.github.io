@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Premature Optimization Or Prudent Planning</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+	<header>
+  <a href="/">
+    <div class="icon">
+      <img src="/images/david_batey.jpg" title="David Batey" id="main-icon"/>
+    </div>
+  </a>
+  <div class="title">
+    <a href="/">
+      <h1>David Batey</h1>
+      <h2>Productivity, Startups and Tech</h2>
+    </a>
+    <nav>
+  <a href="/">Posts</a>
+  -
+  <a href="/motivation.html">Motivation</a>
+  -
+  <a href="/goals.html">Goals</a>
+  -
+  <a href="http://www.twitter.com/davidbatey" target="_blank">Twitter</a>
+</nav>
+
+  </div>
+</header>
+<hr />
+
+
+	<p>I&#8217;ve been a bit quiet the last few months because I&#8217;ve been building an awesome new application (well two actually) one for the brilliant Gleanin guys and one for myself. My new app is www.Nickelled.com and it&#8217;s raison d&#8217;être is to enable web apps to better educate their users on how to interact on their site, with the assumption that if the user knows how to correctly interact with the site then they&#8217;re more likely to A. become a customer and B. less likely to raise time consuming/expensive support requests. What I wanted to discuss though wasn&#8217;t the application but an architectual design decision that I&#8217;ve made early on.</p>
+
+<p>Right out of the gate I&#8217;ve pulled out the API and separated out other logical components into their own small applications/services. I did this not because I expect to hit scale any time soon but by having the APIs separate I will be able to offer a high level of availability while rapidly changing and iterating sections of the applications which are still under development and in flux.</p>
+
+<p>I think that if I was trying to avoid premature optimization then I would have waited until recieving complaints of dropped requests before separating the code or alternatively I could have moved to a slower release schedule (e.g. nightly or weekly). Neither of these alternatives sits well with me, with Nickelled I don&#8217;t plan to offer a good service but an exceptional one and I see delayed deployments as not reducing risk but increasing it (topic for another post?) due to the build up of code and new libararies that will be released.</p>
+
+<p>Tweet me if you think I&#8217;ve made a heinous error, or if you have a better solution.</p>
+
+	<footer>
+  &copy; David Batey 2013 - hosted on GitHub Pages
+</footer>
+
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43781118-1', 'davidbatey.com');
+  ga('send', 'pageview');
+
+</script>
